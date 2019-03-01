@@ -4,7 +4,7 @@ python:
 install:
   - pip install .
 script:
-  - pytest
+  - python -m unittest sample_test.Testing
 branches:
   only:
   - master
